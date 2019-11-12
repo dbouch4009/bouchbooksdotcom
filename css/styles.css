@@ -1,0 +1,314 @@
+/* HTML Assets */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+html,
+body {
+  color: white;
+  background-color: #535b5b;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/book_wallpaper.jpg);
+  /* banner credit: alphacoders.com https://wall.alphacoders.com/big.php?i=26102 */
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*Element Styles */
+.author-pic {
+  max-width: 100%;
+  height: auto;
+  max-height: 600px;
+  /* max-width: 600px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.container {
+  /*width: 1140px;*/
+  background-color: #535b5b;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.book-pic {
+  position: static;
+  width: auto;
+  margin-top: 30px;
+}
+
+.author-name {
+  position: relative;
+  width: 900px;
+  margin-top: 30px;
+}
+
+.vert-centered {
+  padding-top: 50px;
+}
+
+.author-writer {
+  position: relative;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.author-developer {
+  position: relative;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.author-enthusiast {
+  position: relative;
+  margin-top: 30%;
+  text-align: center;
+}
+
+.hype-carousel {
+  opacity: 1;
+  animation-duration: 1s;
+}
+
+.ndif-box {
+  height: 300px;
+}
+
+.buy-ndif {
+  overflow: hidden;
+  height: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.ndif-banner {
+  align-content: center;
+  width: 100%;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.long-text {
+  overflow: auto;
+  /* resize: none; */
+  /* max-height: 800px; */
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hype-button {
+  align-content: center;
+}
+
+.amazon-box {
+  margin: auto;
+}
+
+.ndif-box {
+  height: 500px;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+.amazon-icon {
+  height: 300px;
+  width: auto;
+  margin: auto;
+}
+
+/* Sections */
+.section-author-banner {
+  background-color: #535b5b;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.section-author {
+  background-color: #5b6464;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.section-damian-bouch {
+  background-color: #5b6464;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.section-em-lyons-bouch {
+  background-color: #5b6464;
+  margin-top: 3%;
+  width: 100%;
+}
+
+.section-hype {
+  background-color: #535b5b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-books {
+  background-color: #5b6464;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.section-reviews {
+  background-color: #535b5b;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.section-signup {
+  background-color: #5b6464;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.amazon-buy {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-------------REVIEWS-----------------*/
+.what-people-say {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  border-bottom: #ccc solid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.amazon-reviews {
+  margin-top: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*-------------FOOTER-----------------*/
+
+footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 50px;
+}
+
+.copyright-info {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-links {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-links li {
+  display: inline-block; /* turns from vert list into horizontal list */
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+  margin-right: 0px;
+}
+
+.social-links li,
+.social-links li a:link,
+.social-links li a:visited,
+.footer-nav li,
+.footer-nav li a:link,
+.footer-nav li a:visited {
+  color: #555;
+  border: 0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active .social-links li a:active {
+  color: #ccc;
+}
+
+footer p {
+  color: #555;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 15px;
+}
+
+.social-links li a:visited,
+.social-links li a:link {
+  font-size: 140%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+  transition: color 0.8s;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
